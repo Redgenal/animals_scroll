@@ -1,0 +1,90 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.App {
+
+
+  /*height is for making vertical centering in flex */
+  /* height: 750px; */
+
+  display: flex;
+
+  /* в колонку по вертикали*/
+  flex-direction: column;
+
+   /* justify-content is for making horizontal centering  */
+  /* justify-content: space-around; */
+
+  /* this is item centering */
+
+  align-items: center;
+
+  /* no scroll, fit to screen, no screen-size overflow*/
+  overflow:hidden;
+
+ 
+}
+
+
+.image-gallery-slides {
+  /* position: relative; */
+  top: 90px;
+  border-radius: 1.25rem;
+  /* vertical-align: top; */
+  max-width: "100%";
+
+}
+
+
+
+
+.mobileDotsContainer{
+  display: flex;
+  padding-top: 110px;
+
+ 
+}
+
+
+.mobileDot1 {
+  /* position: absolute; */
+  width: 20px;
+  height: 6px;
+  border-radius: 30% 30% 30% 30%;
+  overflow: hidden; 
+  /* border: 0px solid #f1f1f1; */
+  margin: 1px 3px;
+  
+  /* background: #8A8A8A; */
+  background: white;
+  cursor: pointer;
+  /* transition: .2s linear; */
+  /* z-index: 1; */
+
+}
+.mobileDot2 {
+  /* background: rgb(207, 23, 23); */
+  /* position: relative; */
+  /* overflow: hidden;  */
+  background: #8A8A8A;
+  width: 6px;
+  height: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+  width: 6px;
+  margin: 1px 3px;
+
+}
+
+.headerText {
+  position: relative;
+  left: 70px;
+  /* width: 100%; */
+  color: white;
+  /* https://www.youtube.com/watch?app=desktop&v=M4RqJwtXDko about gradient color text */
+  /* background-image: linear-gradient(to left, purple,blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  /* align-items: center; */
+  /* justify-content: space-around; */
+}
